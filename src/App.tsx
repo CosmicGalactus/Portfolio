@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import { ThemeProvider } from './context/ThemeContext'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact'
 
-function App() {
+function AppContent() {
   const [activeSection, setActiveSection] = useState('home')
 
   const renderSection = () => {
@@ -25,12 +26,20 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
       <Navbar activeSection={activeSection} onNavigate={setActiveSection} />
       <main>
         {renderSection()}
       </main>
     </div>
+  )
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   )
 }
 
