@@ -14,7 +14,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => 
     <nav className="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg z-50 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-          Buffering
+          Prakhar
         </h1>
         <ul className="flex gap-6 items-center">
           {['home', 'projects', 'about', 'contact'].map((item) => (

@@ -3,6 +3,7 @@ import './App.css'
 import { ThemeProvider } from './context/ThemeContext'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
+import { Stats } from './components/Stats'
 import { About } from './components/About'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact'
@@ -13,7 +14,12 @@ function AppContent() {
   const renderSection = () => {
     switch (activeSection) {
       case 'home':
-        return <Hero />
+        return (
+          <>
+            <Hero />
+            <Stats />
+          </>
+        )
       case 'about':
         return <About />
       case 'projects':
@@ -21,7 +27,12 @@ function AppContent() {
       case 'contact':
         return <Contact />
       default:
-        return <Hero />
+        return (
+          <>
+            <Hero />
+            <Stats />
+          </>
+        )
     }
   }
 

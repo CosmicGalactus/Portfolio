@@ -29,10 +29,10 @@ export const Contact: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Mail, label: 'Email', href: 'mailto:prakhar@example.com' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
+    { icon: Mail, label: 'Email', href: 'mailto:prakhar.srivastava@gmail.com' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/prakhar-srivastava' },
     { icon: Github, label: 'GitHub', href: 'https://github.com/CosmicGalactus' },
-    { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
+    { icon: Twitter, label: 'Twitter', href: 'https://twitter.com/prakhardev' },
   ];
 
   return (

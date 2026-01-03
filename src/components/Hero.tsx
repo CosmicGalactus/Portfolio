@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
     },
   };
 
-  const nameLetters = 'BUFFERING'.split('');
+  const nameLetters = 'PRAKHAR'.split('');
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 flex items-center justify-center pt-16 relative overflow-hidden">
@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          A passionate full-stack developer crafting beautiful and functional web experiences
+          Full-Stack Developer | Building elegant solutions with React, Node.js & modern web technologies
         </motion.p>
 
         <motion.div
@@ -93,7 +93,7 @@ export const Hero: React.FC = () => {
             >
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-                  Buffering
+                  Prakhar Srivastava
                 </h2>
                 <button
                   onClick={() => setShowModal(false)}

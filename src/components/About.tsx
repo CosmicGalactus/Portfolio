@@ -62,13 +62,13 @@ export const About: React.FC = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-              I'm a passionate full-stack developer with a focus on building scalable, user-friendly web applications.
-              With expertise in modern JavaScript frameworks and backend technologies, I craft digital solutions
-              that make an impact.
+              I'm Prakhar Srivastava, a Full-Stack Developer passionate about creating high-performance web applications that solve real-world problems. With expertise in React, Node.js, and modern web technologies, I transform ideas into scalable digital solutions.
+            </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+              My approach combines clean code architecture with user-centric design. I specialize in building responsive, interactive applications that deliver exceptional user experiences.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I love collaborating with teams, learning new technologies, and turning ideas into reality.
-              When I'm not coding, you can find me exploring new tools or contributing to open source projects.
+              When I'm not coding, I'm exploring emerging technologies, contributing to open-source projects, and collaborating with talented teams to build amazing products.
             </p>
           </motion.div>
           <motion.div
